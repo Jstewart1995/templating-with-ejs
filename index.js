@@ -41,14 +41,14 @@ app.get('/users/view/:id', function(req, res) {
  });
 });
 
-app.get('/links', (req, res) => {
-  var title = 'Links';
-  res.render('pages/links',{'title':title});
+app.get('/atlanta', (req, res) => {
+  var title = 'Atlanta';
+  res.render('pages/atlanta',{'title':title});
 });
 
-app.get('/disclaimer', (req, res) => {
-  var title = 'Disclaimer';
-  res.render('pages/disclaimer',{'title':title});
+app.get('/kobe', (req, res) => {
+  var title = 'Kobe';
+  res.render('pages/kobe',{'title':title});
 });
 
 
